@@ -1,0 +1,40 @@
+.gan2 {
+	width: 100%;
+	text-align: center;
+	padding-right: 64px;
+	padding-top: 76px;
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 77px;
+
+	color: #FFFFFF;
+}
+
+.gan2-rem2 {
+	padding-top: 0;
+	padding-bottom: 32px;
+	padding-left: 40px;
+}
+
+
+.gan3 {
+	width: 100%;
+	text-align: center;
+	padding-right: 64px;
+	padding-top: 76px;
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 77px;
+
+	color: #FFFFFF;
+}
+
+.gan3-rem2 {
+	padding-top: 0;
+	padding-bottom: 32px;
+	padding-left: 40px;
+}

@@ -1,0 +1,69 @@
+
+.layers {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.layer {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	will-change: transform;
+	z-index: 2;
+	/* transition: var(--transition); */
+}
+
+.layer1 {
+	transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
+	z-index: 0;
+}
+
+.layer2 {
+	transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
+}
+
+.layer3 {
+	transform: translate3d(0, calc(var(--scrollTop) / 3), 0);
+}
+
+.layer4 {
+	transform: translate3d(0, calc(var(--scrollTop) / 10), 0);
+}
+
+/* .layer5{
+    transform: translate3d(0, calc(var(--scrollTop) / 10), 0);
+} */
+
+.layer-logo {
+	transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
+
+	/* height: 30vh; */
+}
+
+.layer-header {
+	top: 0;
+	height: 50px;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 26px 48px;
+	transform: translate3d(0, calc(var(--scrollTop) / 1.6), 0);
+
+}
+
+.layer-header span {
+
+	font-size: 18px;
+	color: white;
+	margin-left: 32px;
+	font-weight: lighter;
+	cursor: pointer;
+}
